@@ -92,7 +92,7 @@ const Testimonials = ({ testimonials = testimonialsData, currentTestimonial, set
             
             
             <motion.div 
-              className={`flex-1 p-8 rounded-xl max-h-56 min-h-56 text-center ${darkMode ? 'bg-gray-900' : 'bg-white'} shadow-lg relative overflow-hidden`}
+              className={`flex-1 p-8 rounded-xl lg:max-h-56 lg:min-h-56 text-center ${darkMode ? 'bg-gray-900' : 'bg-white'} shadow-lg relative overflow-hidden`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
